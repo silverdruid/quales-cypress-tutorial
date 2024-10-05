@@ -1,7 +1,7 @@
 import  {login}  from './pages/loginPage.mjs'
 
 
-describe('login, create and delete course', () => {
+describe('login', () => {
   
   it('loads url successfully and confirms page information visibility', () => {
     login.openApp()
